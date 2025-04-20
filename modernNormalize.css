@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Важно для корректных размеров */
+}
+
+html {
+  scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+body {
+  line-height: 1.5; /* Читабельный межстрочный интервал */
+  -webkit-font-smoothing: antialiased; /* Сглаживание шрифтов */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; /* Изображения не выходят за границы */
+  height: auto; /* Сохранение пропорций */
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Наследование шрифта для форм */
+}
+
+button {
+  cursor: pointer; /* Курсор-указатель для кнопок */
+  border: none; /* Убирает стандартную рамку */
+  background: none; /* Убирает фон */
+}
+
+a {
+  text-decoration: none; /* Убирает подчеркивание ссылок */
+  color: inherit; /* Наследует цвет текста */
+}
+
+ul,
+ol {
+  list-style: none; /* Убирает маркеры списков */
+}
